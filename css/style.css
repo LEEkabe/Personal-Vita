@@ -1,3 +1,12 @@
+/*--
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+
+
+
 /*-- Reset Code --*/
 
 	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
@@ -27,23 +36,11 @@
 /*-- Reset Code --*/
 
 
-@font-face {
-  font-family: "FZYASHJW";
-  src: url("/fonts/FZYASHJW.woff2") format("woff2"),
-       url("/fonts/FZYASHJW.woff") format("woff"),
-       url("/fonts/FZYASHJW.ttf") format("truetype"),
-       url("/fonts/FZYASHJW.eot") format("embedded-opentype"),
-       url("/fonts/FZYASHJW.svg") format("svg"),
-       url("/fonts/FZYASHJW.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal,100,300,400,500,700,900;
-}
-
 
 /*-- Index-Page-Styling --*/
 
 body {
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	background-color: #05c2f9;
 }
@@ -68,7 +65,7 @@ input[type="button"], input[type="submit"] {
 }
 
 h1 {
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -132,7 +129,7 @@ div#verticalTab {
 }
 
 .resp-tab-item span {
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #DDD;
 }
 
@@ -295,7 +292,7 @@ h2.resp-tab-active {
 }
 
 .agileabout-info ul li .li1 {
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	width: 20%;
 	float: left;
 	font-size: 14px;
@@ -323,11 +320,11 @@ h2.resp-tab-active {
 	padding-top: 0;
 }
 
-.agileabout-info ul li:nth-child(6) {
+.agileabout-info ul li:nth-child(8) {
 	padding-bottom: 0;
 }
 
-.agileabout-info ul li:nth-child(6) .li3 {
+.agileabout-info ul li:nth-child(8) .li3 {
 	line-height: 25px;
 	margin-top: -3px;
 }
@@ -409,7 +406,7 @@ h2.resp-tab-active {
 }
 
 p.lead {
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 5px;
 }
 
@@ -472,14 +469,14 @@ p.lead {
 }
 
 .social-icons {
-	margin-top: 120px;
+	margin-top: 40px;
 }
 
 .social-icons h4 {
 	color: #CCC;
 	/*-- w3layouts --*/
 	/*-- agileits --*/
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	margin-bottom: 20px;
 }
@@ -491,7 +488,7 @@ p.lead {
 }
 
 .social-icons ul li {
-	width: 50%;
+	width: 33.3%;
 	display: block;
 	float: left;
 }
@@ -508,31 +505,32 @@ p.lead {
 	padding-left: 1em;
 }
 
-.social-icons ul li.gh span.icons {
-	background: url(../images/gh.png)no-repeat #3349b3 center;
+.social-icons ul li span.icons {
+	background: url(../images/i1.png)no-repeat #2E4A84 center;
 	width: 40px;
 	height: 40px;
 	display: inline-block;
 }
 
-.social-icons ul li.gh{
-	background-color: #4764f1;
+.social-icons ul li.fb{
+	background-color: #3b5998;
 }
 
-.social-icons ul li.qq{
+.social-icons ul li.twt{
 	background-color: #55acee;
 }
 
-.social-icons ul li.qq span.icons {
-	background: url(../images/qq.png)no-repeat #4D9CD8 center;
-	width: 40px;
-	height: 40px;
-	display: inline-block;
+.social-icons ul li.twt span.icons {
+	background: url(../images/i2.png)no-repeat #4D9CD8 center;
 }
 
+.social-icons ul li.ggp{
+	background-color: #dc4e41;
+}
 
-
-
+.social-icons ul li.ggp span.icons {
+	background: url(../images/i3.png)no-repeat #D64639 center;
+}
 
 .social-icons ul li a:hover span.icons {
 	transform: rotatey(360deg);
@@ -575,7 +573,7 @@ p.lead {
 }
 
 .w3lsfooteragileits p a {
-	font-family: "FZYASHJW", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #FFF;
 }
 
@@ -822,7 +820,7 @@ p.lead {
 		padding: 18px 0;
 	}
 	.social-icons {
-		margin-top: 75px;
+		margin-top: 25px;
 	}
 	.social-icons ul {
 		width: 90%;
@@ -1008,7 +1006,7 @@ p.lead {
 	.social-icons ul li {
 		width: 100%;
 	}
-	li.qq {
+	li.twt {
 		margin: 5px 0;
 	}
 }
